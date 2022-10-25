@@ -1,0 +1,63 @@
+.card-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    width: 250px;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    &:hover{
+        border: 1px solid #343435 ;
+    }
+    
+    &__img {
+        width: auto;
+        height: 250px;
+        text-align: center;
+        
+        img {
+            width: 200px;
+            vertical-align: middle;
+        }
+    }
+    &__vendor {
+        font-size: 16px;
+        text-decoration: underline;
+        color: #017182;
+        font-weight: 700;
+        
+    }
+   &__price{
+        font-size: 24px;
+        margin-top: 20px;
+        
+    }
+    &__icons {
+        display: flex;
+        margin-top: 20px;
+        .isFavorite{ 
+            path{
+                fill: rgb(251, 243, 3);
+            }};
+        svg{
+            width: 30px;
+            height: 30px;
+            margin-left: 17px;
+            margin-right: 17px;
+            padding: 5px;
+            cursor: pointer;         
+        };
+           
+    }
+    &__name{
+        font-size: 20px;
+        margin-top: 20px;
+        color: #017182;
+        font-weight: 700;
+    }
+    &__power{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}

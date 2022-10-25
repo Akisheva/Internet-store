@@ -1,0 +1,18 @@
+.cards-wrapper{
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1400px;
+    text-align: center;
+    justify-content: center;
+    &__icon-list {
+        margin-right: 20px;
+        width: 30px;
+        height: 30px;
+    }
+}
+// .cards-list {
+//     flex-direction: column;
+// }

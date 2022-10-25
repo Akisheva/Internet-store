@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FE1720;
+    max-width: 1600px;
+    svg{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    &__slogan{
+        font-size: 30px;
+        font-weight: 700;
+        color: #FFF;
+        margin-top: 35px;
+    }
+    &__icons {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        position: relative;      
+        svg{
+            width: 50px;
+             height: 50px;
+             margin: 30px;
+             cursor: pointer;
+             path {
+                fill: #FFF;
+             }
+        }
+    }
+    
+    #favorite, #cart{
+        width:30px;
+        height: 30px;
+        text-align: center;
+        vertical-align: middle;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 900;
+        position:absolute;
+        
+        }
+    #favorite{
+        right: 151px;
+        top: 45px;
+        } 
+     #cart{
+        right: 35px;
+        top: 42px;
+        }   
+}

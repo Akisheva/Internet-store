@@ -1,0 +1,29 @@
+.cart-page {
+    &__title {
+        font-size: 36px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+}
+.item-amount {
+    font-size: 20px;
+    padding: 5px;
+}
+.remove-item {
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+.btn-order {
+    background-color: hsl(188, 98%, 26%, 0.7);
+    margin-top: 10px;
+}
+.btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

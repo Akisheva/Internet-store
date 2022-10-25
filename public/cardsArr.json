@@ -1,0 +1,82 @@
+{ "cards" :[
+    {
+        "cardId": 1,
+        "name": "Аккумуляторна стрічкова пила ",
+        "price": "13073",
+        "vendorCode": "dpb182z",
+        "url": "./images/akkumulyatornaya-lentochnaya-pila-dpb182z-bez-akb.jpg",
+        "power": "350 Вт"
+    },
+    {
+        "cardId": 2,
+        "name": "Дриль",
+        "price": "3257",
+        "vendorCode": "6413",
+        "url": "./images/makita-6413.jpg",
+        "power": "450 Вт"
+    },
+    {
+        "cardId": 3,
+        "name": "Аккумуляторний шурупокрут",
+        "price": "9086",
+        "vendorCode": "BTP130RFE",
+        "url": "./images/BTP130RFE.jpeg",
+        "power": "450 Вт"
+    },
+    {
+        "cardId": 4,
+        "name": "Дискова пила ",
+        "price": "12537",
+        "vendorCode": "DHS660",
+        "url": "./images/Makita-DHS660Z.jpg",
+        "power": "450 Вт"
+    },
+    {
+        "cardId": 5,
+        "name": "Дриль",
+        "price": "4385",
+        "vendorCode": "DP2011",
+        "url": "./images/makita-DP2011.jpg",
+        "power": "450 Вт"
+    },
+    {
+        "cardId": 6,
+        "name": "Ударний дриль",
+        "price": "3857",
+        "vendorCode": "HP1640",
+        "url": "./images/makita-HP1640.jpg",
+        "power": "450 Вт"
+    },
+    {
+        "cardId": 7,
+        "name": "Аккумуляторна дискова пила",
+        "price": "5143",
+        "vendorCode": "HS301DZ",
+        "url": "./images/Makita-HS301DZ.jpg",
+        "power": "450 Вт"
+    },
+    {
+        "cardId": 8,
+        "name": "Дискова пила",
+        "price": "7788",
+        "vendorCode": "hs7601",
+        "url": "./images/makita-hs7601.jpg",
+        "power": "450 Вт"
+    },
+    {
+        "cardId": 9,
+        "name": "Дриль",
+        "price": "6340",
+        "vendorCode": "DP4010",
+        "url": "./images/phpThumb_generated_thumbnail.jpeg",
+        "power": "450 Вт"
+    },
+    {
+        "cardId": 10,
+        "name": "Мережевий ударний шурупокрут",
+        "price": "3086",
+        "vendorCode": "hp0300",
+        "url": "./images/setevoy-udarnyy-shurupovert-hp0300-makita.png",
+        "power": "450 Вт"
+    }
+]}
