@@ -8,9 +8,10 @@ export const setInCart = createAction('SET_IN_CART');
 export const removeFromCart = createAction('REMOVE_FROM_CART')
 export const setInFavorite = createAction('SET_IN_FAVORITE')
 export const removeFromFavorite = createAction('REMOVE_FROM_IN_FEVORITE')
-
+const API = process.env.PUBLIC_URL + "./cardsArr.json";
 export const fetchCards = () => (dispatch) => {
-    return sendRequest("./cardsArr.json")
+    return sendRequest(API)
+//     return sendRequest("./cardsArr.json")
     .then (({cards}) => {
       dispatch(setCards(cards))
     })
